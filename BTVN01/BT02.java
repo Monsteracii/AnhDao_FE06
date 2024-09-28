@@ -7,8 +7,8 @@ public class BT02 {
         System.out.print("Nhập bán kính: ");
         double radius = myscanner.nextDouble();
 
-        double circumference = (double)radius * 3.14 * 2;
-        double area = (double)radius * (double)radius * 3.14;
+        double circumference = (double)radius * Math.PI * 2;
+        double area = (double)radius * (double)radius * Math.PI;
 
         System.out.println ("Chu vi hình tròn là: " + circumference);
         System.out.println ("Diện tích hình tròn là: " + area);
