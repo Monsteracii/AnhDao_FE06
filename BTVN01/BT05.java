@@ -13,9 +13,9 @@ public class BT05 {
         System.out.print ("Nhập số nguyên thứ hai: ");
         int num2 = myscanner.nextInt();
 
-        double multi = (double) num1 / num2;
+        double div = (double) num1 / num2;
         //double roundoff = Math.round(multi * 1000.0) / 1000.0;
-        String roundoff = df.format(multi);
+        String roundoff = df.format(div);
        
         System.out.println ("Thương của hai số " + num1 + " và " + num2 + " là: " + roundoff);
         myscanner.close();
