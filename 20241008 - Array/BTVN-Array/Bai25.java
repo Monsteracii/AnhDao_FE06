@@ -1,4 +1,6 @@
 import java.util.Scanner;
+//Thực hiện nhập vào một mảng số nguyên a có n phần tử (n > 0). 
+//Đếm xem trong mảng có bao nhiêu số lẻ và bao nhiêu số chẵn.
 
 public class Bai25 {
     public static void main(String[] args) {

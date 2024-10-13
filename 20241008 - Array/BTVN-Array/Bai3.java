@@ -1,5 +1,6 @@
 import java.util.Scanner;
 //Nhập số n và dãy các số nguyên a[0], a[1],..., a[n-1] rồi sắp xếp dãy trên theo thứ tự tăng dần.
+
 public class Bai3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); 

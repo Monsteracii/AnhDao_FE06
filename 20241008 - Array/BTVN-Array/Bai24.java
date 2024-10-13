@@ -1,6 +1,7 @@
 import java.util.Scanner;
 //Thực hiện nhập vào một mảng số nguyên a có n phần tử (n > 0). 
 //Thực hiện sắp xếp mảng theo thứ tự giảm dần.
+
 public class Bai24 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); 
