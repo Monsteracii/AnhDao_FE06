@@ -9,7 +9,7 @@ public class Bai2 {
         return result;
     }
 
-    public static boolean alldigitsPrime (int num) {
+    public static boolean allDigitsPrime (int num) {
         while (num > 0) {
             int digit = num % 10; 
             if (digit != 2 && digit != 3 && digit != 5 && digit !=7) { 
@@ -27,13 +27,7 @@ public class Bai2 {
             reverseNum = reverseNum * 10 + temp % 10;
             temp /= 10; 
         }
-        if (reverseNum != num) return false;
-        
-        if (reverseNum < 2) return false; 
-        for (int i = 2; i < Math.sqrt(reverseNum); i++) {
-            if (num % i == 2) return false; 
-        }
-        return true;
+        return reverseNum == num;
     }
     
     public static void main(String[] args) {
