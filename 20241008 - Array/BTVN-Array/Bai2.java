@@ -36,7 +36,7 @@ public class Bai2 {
     int sum = 0;
     for (int i = min; i <= max; i++) {
         int num = i; 
-        if (isPrime(num) && alldigitsPrime(num) && isSymmetry(num)) {
+        if (isPrime(num) && allDigitsPrime(num) && isSymmetry(num)) {
             System.out.println("Cac so thoa dieu kien la: " + num);
             sum += 1;
             }
